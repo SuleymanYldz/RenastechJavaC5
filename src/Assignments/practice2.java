@@ -17,7 +17,12 @@ public class practice2 {
 
         if (JohnTeam > mikeTeam){
             System.out.println("Winner team is" + JohnTeam);
-        }else if (mikeTeam > JohnTeam);
-        System.out.println("Winner is MikeTeam  " + mikeTeam);
+        }else if (mikeTeam > JohnTeam){
+            System.out.println("Winner is MikeTeam  " + mikeTeam);
+
+        }else {
+            System.out.println("Both team  have same scores");
+        }
+
     }
 }
