@@ -5,8 +5,8 @@ public class CompareTwoStringsEqult {
     /*
     Write a Java program to compare two strings equlty. Two strings are equal if they are the same length and contain the same characters in the same positions.
 Sample Output:
-String 1: This is Exercise 1
-String 2: This is Exercise 2
+SessionString 1: This is Exercise 1
+SessionString 2: This is Exercise 2
 "This is Exercise 1" not equal "This is Exercise 2"
      */
 

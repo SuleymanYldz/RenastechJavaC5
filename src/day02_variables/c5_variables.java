@@ -40,11 +40,11 @@ public class c5_variables {
 //
 //
 //
-//        Non primitive types: String, Object
+//        Non primitive types: SessionString, Object
 //        There are also reference types that wrap the primitive types.
 //        These can be useful if you need a make a variable null or use it in a class that requires a non-primitive type
 //
-//        Non primitives are usually objects that we create (the exception being String)
+//        Non primitives are usually objects that we create (the exception being SessionString)
 
     public static void main(String[] args) {
 

@@ -6,7 +6,7 @@ public class C1_StringMethods {
                /*
 Method	              Description                                                     	Return Type
 charAt()	          Returns the character at the specified index (position)	        char
-concat()	          Appends a string to the end of another string	                    String
+concat()	          Appends a string to the end of another string	                    SessionString
 contains()	          Checks whether a string contains a sequence of characters	        boolean
 endsWith()	          Checks whether a string ends with the specified character(s)	    boolean
 equals()	          Compares two strings. Returns true if the strings are equal,
@@ -19,16 +19,16 @@ lastIndexOf()	      Returns the position of the last found occurrence of
                       specified characters in a string	                                int
 length()	          Returns the length of a specified string	                        int
 replace()	          Searches a string for a specified value, and returns
-                      a new string where the specified values are replaced	            String
+                      a new string where the specified values are replaced	            SessionString
 replaceFirst()	      Replaces the first occurrence of a substring that matches the
-                      given regular expression with the given replacement	            String
+                      given regular expression with the given replacement	            SessionString
 startsWith()	      Checks whether a string starts with specified characters	        boolean
 substring()	          Extracts the characters from a string,
                       beginning at a specified start position,
-                      and through the specified number of character	                    String
-toLowerCase()	      Converts a string to lower case letters	                        String
-toUpperCase()	      Converts a string to upper case letters	                        String
-trim()	              Removes whitespace from both ends of a string	                    String
+                      and through the specified number of character	                    SessionString
+toLowerCase()	      Converts a string to lower case letters	                        SessionString
+toUpperCase()	      Converts a string to upper case letters	                        SessionString
+trim()	              Removes whitespace from both ends of a string	                    SessionString
      */
 
 
@@ -54,7 +54,7 @@ trim()	              Removes whitespace from both ends of a string	             
         }
 
 
-        // notes: isEmpty() method works only with String
+        // notes: isEmpty() method works only with SessionString
         int number1=34;
         //  System.out.println(number1.isEmpty()); ==> we will get an error since my variable is int.
 
@@ -83,7 +83,7 @@ trim()	              Removes whitespace from both ends of a string	             
         String s6="  ";
         System.out.println("s6 length is = "+s6.length());
 
-        System.out.println("Printing last index of the String");
+        System.out.println("Printing last index of the SessionString");
 
         String name2="Java";
         // index ==== 0123

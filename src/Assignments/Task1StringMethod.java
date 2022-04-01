@@ -2,7 +2,7 @@ package Assignments;
 
 public class Task1StringMethod {
 
-    //Task 1 : String Methods
+    //Task 1 : SessionString Methods
 //Sentence =hello my name is hello worlD.   i am 25 years old. i am living in new yorK .
 // i have been in the IT industry for about 6 years.  i starteD as a manUal tesTer and now doing AutOMation for about 4 years.
 // i have experience in different DOmains: education, Energy, finance.i have Scrum Master and Oracle Java Programmer certificates. my main lanGuage is JAVA.

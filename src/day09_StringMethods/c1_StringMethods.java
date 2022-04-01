@@ -6,7 +6,7 @@ public class c1_StringMethods {
        /*
 Method	              Description                                                     	Return Type
 charAt()	          Returns the character at the specified index (position)	        char
-concat()	          Appends a string to the end of another string	                    String
+concat()	          Appends a string to the end of another string	                    SessionString
 contains()	          Checks whether a string contains a sequence of characters	        boolean
 endsWith()	          Checks whether a string ends with the specified character(s)	    boolean
 equals()	          Compares two strings. Returns true if the strings are equal,
@@ -19,23 +19,23 @@ lastIndexOf()	      Returns the position of the last found occurrence of
                       specified characters in a string	                                int
 length()	          Returns the length of a specified string	                        int
 replace()	          Searches a string for a specified value, and returns
-                      a new string where the specified values are replaced	            String
+                      a new string where the specified values are replaced	            SessionString
 replaceFirst()	      Replaces the first occurrence of a substring that matches the
-                      given regular expression with the given replacement	            String
+                      given regular expression with the given replacement	            SessionString
 startsWith()	      Checks whether a string starts with specified characters	        boolean
 substring()	          Extracts the characters from a string,
                       beginning at a specified start position,
-                      and through the specified number of character	                    String
-toLowerCase()	      Converts a string to lower case letters	                        String
-toUpperCase()	      Converts a string to upper case letters	                        String
-trim()	              Removes whitespace from both ends of a string	                    String
+                      and through the specified number of character	                    SessionString
+toLowerCase()	      Converts a string to lower case letters	                        SessionString
+toUpperCase()	      Converts a string to upper case letters	                        SessionString
+trim()	              Removes whitespace from both ends of a string	                    SessionString
      */
 
 
     public static void main(String[] args) {
 
 
-        //concat()	          Appends a string to the end of another string	            String
+        //concat()	          Appends a string to the end of another string	            SessionString
 
         String firstName="Hello";
         String lastName="World";

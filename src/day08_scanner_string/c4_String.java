@@ -11,17 +11,17 @@ public class c4_String {
 
         /*
             in Java, string is an object that represents a sequence of characters.
-            The java.lang.String class is used to create a string object.
+            The java.lang.SessionString class is used to create a string object.
             How to create a string object?
-            There are two ways to create String object:
+            There are two ways to create SessionString object:
             1.By string literal
             2.By new keyword
         */
         //create an string object
         // 1.By string literal
-        //Java String literal is created by using double quotes.
+        //Java SessionString literal is created by using double quotes.
         // For Example:
-        //String str1="Hello";
+        //SessionString str1="Hello";
 
         //Each time you create a string literal, the JVM checks the "string constant pool" first.
         // If the string already exists in the pool, a reference to the pooled instance is returned.

@@ -14,7 +14,7 @@ public class c3_String {
         //id for ozgur
         //since id is a number its better to use whole numbers
         int id=124234; //will be number
-        //String id2 ="124234"; //output will be text
+        //SessionString id2 ="124234"; //output will be text
 
         System.out.println(nameOfStudent);
         System.out.println("Name of Student : " + nameOfStudent + " ,Student id : " + id);

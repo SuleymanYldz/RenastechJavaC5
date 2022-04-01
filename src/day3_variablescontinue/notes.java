@@ -46,7 +46,7 @@ public class notes {
 
     main method: runs the codes as java application
 
-    public static void main(String[] args) {  }
+    public static void main(SessionString[] args) {  }
 
 
     IdeaProject folder: It has all the project that we have created in IntelliJ
