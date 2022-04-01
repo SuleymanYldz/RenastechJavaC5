@@ -13,7 +13,7 @@ public class c7_ScannerNext {
 
         Scanner input=new Scanner(System.in);
         System.out.println("Enter First name ");
-        //String firstName="Gulsen";
+        //SessionString firstName="Gulsen";
         String firstName=input.next();
         System.out.println("First Name is : " + firstName);
 

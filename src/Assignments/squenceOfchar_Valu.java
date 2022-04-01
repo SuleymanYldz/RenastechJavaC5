@@ -5,7 +5,7 @@ public class squenceOfchar_Valu {
     /*
      Write a Java program to test if a given string contains the specified sequence of char values.
 Sample Output:
-Original String: PHP Exercises and Python Exercises
+Original SessionString: PHP Exercises and Python Exercises
 Specified sequence of char values: and
      */
 

@@ -3,33 +3,33 @@ package day_11_StringMethods;
 public class c1_StringMethods {
 
     //replace()	          Searches a string for a specified value, and returns
-    //                      a new string where the specified values are replaced	            String
+    //                      a new string where the specified values are replaced	            SessionString
     //replaceFirst()	      Replaces the first occurrence of a substring that matches the
-    //                      given regular expression with the given replacement	            String
+    //                      given regular expression with the given replacement	            SessionString
     //
     //startsWith()	      Checks whether a string starts with specified characters	        boolean
     //substring()	          Extracts the characters from a string,
     //                      beginning at a specified start position,
-    //                      and through the specified number of character	                    String
-    //toLowerCase()	      Converts a string to lower case letters	                        String
-    //toUpperCase()	      Converts a string to upper case letters	                        String
-    //trim()	              Removes whitespace from both ends of a string	                    String
+    //                      and through the specified number of character	                    SessionString
+    //toLowerCase()	      Converts a string to lower case letters	                        SessionString
+    //toUpperCase()	      Converts a string to upper case letters	                        SessionString
+    //trim()	              Removes whitespace from both ends of a string	                    SessionString
 
     public static void main(String[] args) {
 
         String word="Hello world 123 hello world 123";
         //replace()	          Searches a string for a specified value, and returns
-        //                      a new string where the specified values are replaced	            String
+        //                      a new string where the specified values are replaced	            SessionString
 
         //remove all e from word and pass x as a replecment
         System.out.println(word.replace("e" ,"x"));
-        System.out.println(word); // since we didnt reasign word it wont effecct String word .
+        System.out.println(word); // since we didnt reasign word it wont effecct SessionString word .
 
         String updatedWord= word.replace("world","planet");
         System.out.println("updatedWord = " + updatedWord);
 
         //replaceFirst()	      Replaces the first occurrence of a substring that matches the
-        //                      given regular expression with the given replacement	            String
+        //                      given regular expression with the given replacement	            SessionString
 
         String str="Java is here , planet is Java , Java is planet";
 
@@ -67,7 +67,7 @@ public class c1_StringMethods {
 
         //substring()	          Extracts the characters from a string,
         //                      beginning at a specified start position,
-        //                      and through the specified number of character	                    String
+        //                      and through the specified number of character	                    SessionString
 
         //we have 2 methods
         //first substring(beginiing index , ending index) :

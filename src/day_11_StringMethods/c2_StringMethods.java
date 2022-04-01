@@ -2,9 +2,9 @@ package day_11_StringMethods;
 
 public class c2_StringMethods {
 
-    //    //toLowerCase()	      Converts a string to lower case letters	                        String
-    //    //toUpperCase()	      Converts a string to upper case letters	                        String
-    //    //trim()	              Removes whitespace from both ends of a string	                    String
+    //    //toLowerCase()	      Converts a string to lower case letters	                        SessionString
+    //    //toUpperCase()	      Converts a string to upper case letters	                        SessionString
+    //    //trim()	              Removes whitespace from both ends of a string	                    SessionString
 
 
 
@@ -26,7 +26,7 @@ public class c2_StringMethods {
         String newFullName=firstName.concat(" ").concat(lastName);
         System.out.println("newFullName = " + newFullName);
 
-        //    //trim()	              Removes whitespace from both ends of a string	                    String
+        //    //trim()	              Removes whitespace from both ends of a string	                    SessionString
 
         String str2="   Hello  java   is  here   ";
 

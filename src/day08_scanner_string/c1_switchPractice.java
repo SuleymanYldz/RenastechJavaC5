@@ -17,7 +17,7 @@ public class c1_switchPractice {
     //byte
     //short
     //int
-    //String
+    //SessionString
     //Integer,Short,Byte,Character
 
     public static void main(String[] args) {

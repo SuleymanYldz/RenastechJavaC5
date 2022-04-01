@@ -11,9 +11,9 @@ public class c2_scannerNextline {
         Scanner input=new Scanner(System.in);
 
 //        System.out.println("Enter Full Name");
-//        //String fullName=input.next();//next only accepting one word so if you have more then one
+//        //SessionString fullName=input.next();//next only accepting one word so if you have more then one
 //        //its better to use nextline
-//        String fullName=input.nextLine();
+//        SessionString fullName=input.nextLine();
 //        System.out.println(fullName);
 
         Scanner input2=new Scanner(System.in);

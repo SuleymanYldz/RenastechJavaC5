@@ -17,5 +17,6 @@ public class Multiplication_table {
             System.out.println(multiply);
         }
 
+        }
+
     }
-}
