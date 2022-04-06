@@ -53,7 +53,7 @@ public class c5_nestedIf {
         //
 
 
-        int score=-20;
+        int score=20;
         String  attend="yes";//Yes No
         String result="";
 
