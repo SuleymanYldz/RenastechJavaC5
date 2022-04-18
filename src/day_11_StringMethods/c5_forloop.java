@@ -48,7 +48,7 @@ public class c5_forloop {
         //...
         // number10 100
 
-        for (int number=0 ; number <=20 ; number++){//0 ,1,2 3,4 5 ... 10 11
+        for (int number=0 ; number <=10 ; number++){//0 ,1,2 3,4 5 ... 10 11
 
             //number * number == to get square of the number
             System.out.print("Number is " + number);

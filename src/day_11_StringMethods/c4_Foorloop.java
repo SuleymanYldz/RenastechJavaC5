@@ -27,7 +27,7 @@ public class c4_Foorloop {
             System.out.println("hello"); // i=0,2 ,4 ,6
         }
 
-        for (int k=1 ; k <= 10 ; k +=3){ // k 1 4 7 10 13
+        for (int k=1 ; k <=10 ; k +=3){ // k 1 4 7 10 13
 
             System.out.println("java"); //k 1 4 7 10
         }

@@ -27,5 +27,8 @@ public class c3_StringPractice {
         //index starts with 0 ; length starts with 1
         System.out.println(sentence.length() -1 );//last index number
         System.out.println(sentence.lastIndexOf("e"));
+
+
+
     }
 }

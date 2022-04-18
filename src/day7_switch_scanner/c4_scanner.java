@@ -33,12 +33,12 @@ public class c4_scanner {
 
         System.out.println("enter int number");
         int number=input.nextInt();
-        //to be able to use scanner librarry methods you need to call the object
+        //to be able to use scanner library methods you need to call the object
         System.out.println("int number : "+number);
 
 
         Scanner scan=new Scanner(System.in);
-        //this is another object that we just created and it comes  from scanner class
+        //this is another object that we just created, and  it comes  from scanner class
         //object name is :  scan
 
         System.out.println("enter short number ");

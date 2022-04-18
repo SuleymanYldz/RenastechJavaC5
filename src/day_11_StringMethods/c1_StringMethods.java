@@ -86,15 +86,17 @@ public class c1_StringMethods {
         System.out.println(letters.substring(6,10+1));
 
         //print Hello
-        System.out.println(letters.substring(0,4+1));
+        System.out.println(letters.substring(0,5));
 
         //print Java
         //index of J and index of after a
         int indexOfJ=letters.indexOf("J");
+        int indexOfa=letters.lastIndexOf("a");
+        System.out.println("indexOfa = " + indexOfa);
         System.out.println("indexOfJ = " + indexOfJ);
 
 //        int indexOfa=letters.indexOf("a ");
-        int indexOfa=letters.lastIndexOf("a");
+        int indexOfaa=letters.lastIndexOf("a");
         System.out.println("indexOfa = " + indexOfa);
 
         System.out.println(letters.substring(12,15+1));

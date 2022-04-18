@@ -41,7 +41,7 @@ trim()	              Removes whitespace from both ends of a string	             
         String s1= "";
         boolean b1 = s1.isEmpty(); // true
 
-        System.out.println(b1); //true because there isn't any value inside the string.
+        System.out.println(b1); //true because there isn't any value inside the string.D
 
         String name=" ";  // space is a character.
 
@@ -54,7 +54,7 @@ trim()	              Removes whitespace from both ends of a string	             
         }
 
 
-        // notes: isEmpty() method works only with SessionString
+        // notes: isEmpty() method works only with String
         int number1=34;
         //  System.out.println(number1.isEmpty()); ==> we will get an error since my variable is int.
 
@@ -113,11 +113,8 @@ trim()	              Removes whitespace from both ends of a string	             
 
         System.out.println(str1.charAt(4)); // n
 //                           Sinan . charAt()            5 -1 => 4
-        System.out.println(str1.charAt( str1.length()-1) );
 
-        System.out.println();
-
-
+        System.out.println(str1.charAt(str1.length()-1));
 
     }
 
